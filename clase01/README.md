@@ -1,4 +1,4 @@
-# Clase 1: Fundamentos Python Fundamentos Python
+# Clase 1: Fundamentos Python 
 
 ## Temas:
 
