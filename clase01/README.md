@@ -98,4 +98,7 @@ Se puede usar comillas simples:
 
 ## :star: 1.5 Actividad: Saludar con Python
 
+En el archivo [clase01.py](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/clase01/clase01.py) está la mini practica
+
+
 ---
