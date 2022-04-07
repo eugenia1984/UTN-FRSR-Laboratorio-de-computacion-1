@@ -22,7 +22,7 @@
 
 - Hacer click en customizar la instalación
 
-- Tildar tods las 6 opciones -> Next
+- Tildar todas las 6 opciones -> Next
 
 - En las opciones avanzadas tener seleccionadas las primeras 5 y abajo esta la ruta de instalación por default -> Install
 
