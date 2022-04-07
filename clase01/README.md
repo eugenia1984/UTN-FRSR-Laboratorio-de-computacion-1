@@ -16,6 +16,11 @@
 
 ## :star: 1.1 Instalación de Python 3
 
+Desde [python.org/downloads](python.org/downloads) para bajar e instalar **Python**
+
+Tildar las dos opciones
+
+
 ---
 
 ## :star: 1.2 Instalación de Pycharm
