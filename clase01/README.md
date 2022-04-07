@@ -58,12 +58,22 @@ Suscaracterísticas:
 
 - Es **interpretado**, se va ejecutando linea por linea.
 
-- Usa **tipado dinámico**, una varaible puede almacenar distintos tipos de datos a lo largo del programa.
+- Usa **tipado dinámico**, una variable puede almacenar distintos tipos de datos a lo largo del programa (por ejemplo una varaible que alamcene un numero luego puede alamcenar un caracter).
 
 
 ## ¿ Qué se puede programar con Python ?
 
-Python es un lenguaje de propòsito general, casi todo puede programarse con Python.
+Python es un lenguaje de proposito general, casi todo puede programarse con Python.
+
+Python es un lenguaje de **proposito general**, casi todo puede programarse con él:
+
+- aplicaciones web
+
+- juegos
+
+- aplicaciones a medida
+
+- inteligencia artificial
 
 
 ## Entorno de Desarrollo (IDE)
@@ -86,13 +96,15 @@ Hay muchos, algunos:
 
 ## :star: 1.4 Hola Mundo con Python
 
-Se uede usar comillas dobles:
+Se puede usar comillas dobles:
 
 ```Print("Hola Mundo")```
 
 Se puede usar comillas simples:
 
 ```Print('Hola mundo')```
+
+Lo importante es no mezclarlas, si se inicia con comillas dobles se cierra con comillas dobles.
 
 ---
 
