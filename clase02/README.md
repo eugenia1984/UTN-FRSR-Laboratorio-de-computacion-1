@@ -69,5 +69,39 @@ En nuestro espacio de memoria Ram hay casillas, cada una va a almacenar la infor
 
 Cada variable va a apuntar a un espacio en memoria(cada una a una única opción).
 
+- Cada valor es una **literal**: una literal es un valor que podemos asignar a nuestras variables,  la literal 10 que es un valor numérico, lo asignamos a nuestra variable x, la literal 2 se asigna a y, las dos están en diferentes posiciones de memoria
+
+- Para saber la dirección de memoria donde están estas literales hacemos esto: Tenemos la dirección **id**, y utilizamos la función:
+```Python
+id(x)
+print(id(x))    # una función dentro de otra
+```
+
+- En numero que vemos en consola, solo tomemos los 3 últimos por ejemplo: x278
+
+- Ya que normalmente las direcciones de memoria son valores hexadecimales y los valores hexadecimales se les antepone una x, en este caso la x que ponemos no tiene nada que ver con la variable, la enseñanza es que una variable apunta a cierta dirección de memoria.
+
+- Sin embargo, si volvemos a ejecutar el código no vamos a obtener la misma posición de memoria, ya que estas variables al almacenar en la memoria Ram, están constantemente moviéndose en diferentes direcciones de memoria en cada ejecución.
+
+- Por esto nunca vamos a obtener los mismos valores.
+
+- Ahora observamos tres casillas donde se almacenan las literales.
+
+**A ESTO SE LO CONOCE COMO REFERENCIA DE MEMORIA O SIMPLEMENTE REFERENCIA**.
+
+```
+x   ->   x626   Guarda 10
+y   ->   x478   Guarda 2
+z   ->   x849   Guarda 12
+```
+
+- Así es que cada una de estas casillas contiene una dirección de memoria que se le ha asignado y dentro tenemos el valor de la literal almacenado.
+
+- En la practica: Ejecutamos nuevamente y las direcciones van a cambiar.
+
+- ¿Por qué pasa esto? Es porque cuando ejecutamos el programa: arranca, reserva memoria, termina y volvemos a ejecutar (recordemos que la memoria es volátil) esto quiere decir que el terminar de ejecutar nuestro programa se eliminan todas la variables y se vuelven a crear cada vez que ejecutamos.
+
+**ESTO ES IMPORTANTE PARA ENTENDER NUESTRAS VARIABLES EN PYTHON!!!**
+
 
 ---
