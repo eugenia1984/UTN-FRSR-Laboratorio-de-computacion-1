@@ -22,6 +22,43 @@
 
 ## :star:  3.1 Tipos de datos
 
+- numericos: Integer, Complex, Float
+
+- Boolean (booleano)
+
+- Set
+
+- : String, List (lista), Tuple (tupla)
+
+- Dictionary (diccionario)
+
+
+Ejemplo de String
+
+```Python
+frase = "Hola alumnos"  # frase: str = "Hola alumnos"
+print(type(frase)) # <class 'str'>
+```
+
+Ejemplo de Boolean:
+```Python
+valorBooleano = True
+print(type(valorBooleano))  # <class 'bool'>
+```
+
+Ejemplo de numero entero:
+```Python
+valorNumero = 10
+print(type(valorNumero)) # <class 'int'>
+```
+
+Ejemplo de numero float (flotente/decimal):
+```Python
+valorNumero = 10.4
+print(type(valorNumero)) # <class 'float'>
+```
+
+
 ---
 
 ## :star: 3.2 Resumen de tipos de datos

@@ -1,4 +1,4 @@
-# Clase 2:  Variables en Python
+# Clase 2: Variables en Python
 
 ## Temas:
 
@@ -8,16 +8,15 @@
 
 ---
 
-## :star: 2.1 Variables 
+## :star: 2.1 Variables
 
 - Básicamente una variable nos va a permitir guardar información de manera temporal.
 
 - Esta información puede se un valor numérico, tipo cadena una fecha, etc.
 
-
 - Vamos a poder usarla tantas veces como lo necesitemos, antes de que termine nuestro programa o que sea destruida esta variable.
 
-- Ahora vemos como declarary utilizar una variable en Python:
+- Ahora vemos como declarar y utilizar una variable en Python:
 
 ```Python
 myName= "Bob"
@@ -25,17 +24,19 @@ myAge = 17
 isHAppy = True
 ```
 
-Tenemos: ``` identificador = dato/valor```
+Tenemos: ` identificador = dato/valor`
 
 El **=** es el operador de asignación
 
 - Para la ejecucion siempre se debe tener en cuenta los atajos del teclado:
 
-```Ctrl + Mayús + F10 -> Run  ```
+`Ctrl + Mayús + F10 -> Run `
 
 - Una ventaja al utilizar variables es que en un solo lugar podemos hacer un cambio del valor que almacena, el cambio se verá reflejado en todos los lugares donde estemos utilizando esta variable.
 
 - Una ventaja en Python, es que no tenemos que indicar el tipo de la variable, por esto podemos cambiar el valor.
+
+Una literal es un valor que podemos asignar a nuestras variables -> A esto se lo conoce como referencia de memoria o simplemente Referencia
 
 Practica
 
@@ -48,20 +49,17 @@ miVariable = 3.5  # Y ahora le asigno otro valor, paso de Integer a Float
 print(miVariable)  # Imprimo por consola
 ```
 
-
 - Básicamente una **función** nos permite ejecutar cierto código: en el caso print nos permite imprimir el valor de una variable hacia la consola (Esto lo veremos en funciones)
 
-
 - La función que nos permite ejecutar el código para imprimir los datos:
+
 ```Python
 print()
 ```
 
-
 ---
 
 ## :star: 2.2 Dirección de memoria y variables
-
 
 - ¿ Que sucede en la memoria Ram?
 
@@ -69,9 +67,10 @@ En nuestro espacio de memoria Ram hay casillas, cada una va a almacenar la infor
 
 Cada variable va a apuntar a un espacio en memoria(cada una a una única opción).
 
-- Cada valor es una **literal**: una literal es un valor que podemos asignar a nuestras variables,  la literal 10 que es un valor numérico, lo asignamos a nuestra variable x, la literal 2 se asigna a y, las dos están en diferentes posiciones de memoria
+- Cada valor es una **literal**: una literal es un valor que podemos asignar a nuestras variables, la literal 10 que es un valor numérico, lo asignamos a nuestra variable x, la literal 2 se asigna a y, las dos están en diferentes posiciones de memoria
 
 - Para saber la dirección de memoria donde están estas literales hacemos esto: Tenemos la dirección **id**, y utilizamos la función:
+
 ```Python
 id(x)
 print(id(x))    # una función dentro de otra
@@ -102,6 +101,5 @@ z   ->   x849   Guarda 12
 - ¿Por qué pasa esto? Es porque cuando ejecutamos el programa: arranca, reserva memoria, termina y volvemos a ejecutar (recordemos que la memoria es volátil) esto quiere decir que el terminar de ejecutar nuestro programa se eliminan todas la variables y se vuelven a crear cada vez que ejecutamos.
 
 **ESTO ES IMPORTANTE PARA ENTENDER NUESTRAS VARIABLES EN PYTHON!!!**
-
 
 ---
