@@ -2,10 +2,8 @@
 
 ## Temas:
 
-- [Clase 1: Fundamentos Python Fundamentos Python](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/tree/main/clase01)
+- [Clase 1: Fundamentos Python Fundamentos Python / Variables en Python / Tipo de datos](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/tree/main/clase01_02_03)
 
-- [Clase 2: Variables en Python](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/tree/main/clase02)
 
-- [Clase 3: Tipos de datos en Python](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/tree/main/clase03)
 
 ---
