@@ -354,10 +354,43 @@ print(f"La suma de ambos es: {numeroIngresado1 + numeroIngresado2}")
 
 ## :star: 3.6 Conversión de la entrada de datos
 
+Todo lo que se ingresa con **input** ingresa de como tipo **Stting** para castearlo a numero, en caso de necesitr hacer cuentas se utiliza **int**
+
+Y para castear del otro modo, de String a Number se utiliza **str**
+
+Un ejemplo de casteo de String a int:
+```Python
+numeroIngresado1 = int(input("Ingrese un numero: ")) 
+```
 ---
 
 
-## :star: 3.7 Actividad: Ejercicio Califica tu día
+## :star: 3.7 Actividades de practica: 
+
+### Ejercicio 1: Califica tu día : 
+
+Por pantalla debe aparecer: **¿Cómo estuvo tu día (1 al 10)?**
+
+El usuario ingresa el dia, y por pantalla sale:
+
+**Mi día estuvo de: 10** , en el caso de que el usuario ingreso 10
+
+### Ejercicio 2:
+
+Se solicita incluir la siguiente información acerca de un libro:
+
+**titulo**
+
+**autor**
+
+Debes imprimir la información en el siguiente formato:
+
+**Proporciona el título:**
+
+**Proporciona el autor:**
+
+Y que por pantalla se vea: ```<titulo> fue escrito por <autor>```
+
 
 ---
 ---
