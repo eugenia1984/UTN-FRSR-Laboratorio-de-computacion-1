@@ -54,8 +54,10 @@ resta = operandoOcho - operandoCinco
 multiplicacion = operandoOcho * operandoCinco
 division = operandoOcho/operandoCinco
 modulo = operandoOcho % operandoCinco
+potencia = operandoCinco ** operandoOcho
 print(f"El resultado de la suma de {operandoOcho} + {operandoCinco} es: {suma}") # con format interpolo string y variable
 print(f"El resultado de la restade {operandoOcho} - {operandoCinco} es: {resta}") 
 print(f"El resultado de la multiplicacion de {operandoOcho} x {operandoCinco}es: {multiplicacion}") 
-print(f"El resultado de la division de {operandoOcho} / {operandoCinco}es: {division}") 
-print(f"El residuo de 8 / 5 es: {modulo}") 
+print(f"El resultado de la division de {operandoOcho} / {operandoCinco} es: {division}") 
+print(f"El residuo de {operandoOcho} / {operandoCinco}  es: {modulo}") 
+print(f"El resultado de la pontencia de {operandoOcho} al {operandoCinco}  es: {potencia}") 
