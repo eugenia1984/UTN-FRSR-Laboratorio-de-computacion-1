@@ -44,3 +44,18 @@ resultado = numeroIngresado1 + numeroIngresado2
 print(f"El primer numero ingresado es: {numeroIngresado1}") 
 print(f"El segundo numero ingresado es: {numeroIngresado2}") 
 print(f"La suma de ambos es: {numeroIngresado1 + numeroIngresado2}") 
+
+# CLASE 4
+# OPERADORES ARITMETICOS
+operandoOcho = 8
+operandoCinco = 5
+suma = operandoOcho + operandoCinco # operador de suma
+resta = operandoOcho - operandoCinco
+multiplicacion = operandoOcho * operandoCinco
+division = operandoOcho/operandoCinco
+modulo = operandoOcho % operandoCinco
+print(f"El resultado de la suma de {operandoOcho} + {operandoCinco} es: {suma}") # con format interpolo string y variable
+print(f"El resultado de la restade {operandoOcho} - {operandoCinco} es: {resta}") 
+print(f"El resultado de la multiplicacion de {operandoOcho} x {operandoCinco}es: {multiplicacion}") 
+print(f"El resultado de la division de {operandoOcho} / {operandoCinco}es: {division}") 
+print(f"El residuo de 8 / 5 es: {modulo}") 
