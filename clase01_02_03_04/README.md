@@ -227,7 +227,7 @@ z   ->   x849   Guarda 12
 ---
 
 
-# Clase 3:   Tipos de datos en Python
+# Clase 3:   20 de Abril - Tipos de datos en Python
 
 ## Temas:
 
@@ -393,4 +393,24 @@ Y que por pantalla se vea: ```<titulo> fue escrito por <autor>```
 
 
 ---
+---
+
+# :book: Clase 4 : 27 de Abril
+
+Temas:
+
+- Operadores aritmeticos
+
+---
+
+## :star: Operadores aritmeticos
+
+| signo | operador
+
+| + | suma |
+| - | resta |
+| * | multipplicacion |
+| / | division |
+| ** | exponente |
+
 ---
