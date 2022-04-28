@@ -79,3 +79,15 @@ ancho = int(input("Ingresar el ancho del rectángulo: "))
 area = alto * ancho
 perimetro = (alto + ancho) * 2
 print(f"Teniendo el rectangulo con {alto} de alto y {ancho} de ancho\nEl área es: {area}\nY el perímetro es: {perimetro}")
+
+# Práctica 2 : Numero par o impar
+# 1 -Solicitamos que el usuario ingrese un numero
+# 2 - Este se asigna a una variable
+# 3 - Utilizaremos la estructura **if else**
+# 4 - Con ```numero % 2 == 0 ``` se si es par
+# 5 - Que por teclado avise si es par o impar
+numeroAIngresar = int(input("Ingrese un numero para decirle si es par o impar: "))
+if numeroAIngresar % 2 == 0:
+  print(f"El {numeroAIngresar} es PAR")
+else:
+  print(f"El {numeroAIngresar} es IMPAR")
