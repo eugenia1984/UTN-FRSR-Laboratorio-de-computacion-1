@@ -62,6 +62,12 @@ print(f"El resultado de la division de {operandoOcho} / {operandoCinco} es: {div
 print(f"El residuo de {operandoOcho} / {operandoCinco}  es: {modulo}") 
 print(f"El resultado de la pontencia de {operandoOcho} al {operandoCinco}  es: {potencia}") 
 
+# Operador de reasignacion, incremento o decremento
+numero = 5
+numero +=2
+print(numero) # 7 ( 5 + 2)
+numero -= 3
+print(numero) # 4 (7 - 3)
 # Practica: calcular el area y el perimetro de un rectangulo, El usuario debera ingresar los valores del alto (int) y ancho(int)
 alto = int(input("Ingresar el alto del rectángulo: "))
 ancho = int(input("Ingresar el ancho del rectángulo: "))

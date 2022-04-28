@@ -401,6 +401,10 @@ Temas:
 
 - Operadores aritmeticos
 
+- Operador de asignacion
+
+- Operadores de reasignacion
+
 ---
 
 ## :star: Operadores aritmeticos
@@ -431,6 +435,29 @@ print(f"El resultado de la multiplicacion de {operandoOcho} x {operandoCinco}es:
 print(f"El resultado de la division de {operandoOcho} / {operandoCinco} es: {division}") 
 print(f"El residuo de {operandoOcho} / {operandoCinco}  es: {modulo}") 
 print(f"El resultado de la pontencia de {operandoOcho} al {operandoCinco}  es: {potencia}") 
+```
+
+---
+
+## :star: Operador de asignacion
+
+Es el **=**, y asigna un valor determinado a la variable.
+
+Ejemplo en codigo:
+
+```Python
+nombre = "Eugenia" # asigno "Eugenia" a la varaible nombre
+```
+
+
+## :star: Operador de reasignacion - incremento - decremento
+
+```Python
+numero = 5
+numero +=2
+print(numero) # 7 ( 5 + 2)
+numero -= 3
+print(numero) # 4 (7 - 3)
 ```
 
 ---
