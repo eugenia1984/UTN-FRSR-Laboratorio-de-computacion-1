@@ -66,5 +66,5 @@ alto = int(input("Ingresar el alto del rectángulo: "))
 ancho = int(input("Ingresar el ancho del rectángulo: "))
 area = alto * ancho
 perimetro = (alto + ancho) * 2
-print(f"Teniendo el rectangulo con {alto} de alto y {ancho} de ancho\nEl área es: {area}nY el perímetro es: {perimetro}")
 
+print(f"Teniendo el rectangulo con {alto} de alto y {ancho} de ancho\nEl área es: {area}\nY el perímetro es: {perimetro}")

@@ -413,6 +413,26 @@ Temas:
 | / | division |
 | ** | exponente |
 
+
+Ejemplos en código:
+
+```Python
+operandoOcho = 8
+operandoCinco = 5
+suma = operandoOcho + operandoCinco # operador de suma
+resta = operandoOcho - operandoCinco
+multiplicacion = operandoOcho * operandoCinco
+division = operandoOcho/operandoCinco
+modulo = operandoOcho % operandoCinco
+potencia = operandoCinco ** operandoOcho
+print(f"El resultado de la suma de {operandoOcho} + {operandoCinco} es: {suma}") # con format interpolo string y variable
+print(f"El resultado de la restade {operandoOcho} - {operandoCinco} es: {resta}") 
+print(f"El resultado de la multiplicacion de {operandoOcho} x {operandoCinco}es: {multiplicacion}") 
+print(f"El resultado de la division de {operandoOcho} / {operandoCinco} es: {division}") 
+print(f"El residuo de {operandoOcho} / {operandoCinco}  es: {modulo}") 
+print(f"El resultado de la pontencia de {operandoOcho} al {operandoCinco}  es: {potencia}") 
+```
+
 ---
 
 ## :star: Práctica
@@ -424,5 +444,5 @@ alto = int(input("Ingresar el alto del rectángulo: "))
 ancho = int(input("Ingresar el ancho del rectángulo: "))
 area = alto * ancho
 perimetro = (alto + ancho) * 2
-print(f"Teniendo el rectangulo con {alto} de alto y {ancho} de ancho\nEl área es: {area}nY el perímetro es: {perimetro}")
+print(f"Teniendo el rectangulo con {alto} de alto y {ancho} de ancho\nEl área es: {area}\nY el perímetro es: {perimetro}")
 ```
