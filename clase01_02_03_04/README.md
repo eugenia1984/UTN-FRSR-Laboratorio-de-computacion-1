@@ -460,6 +460,14 @@ numero -= 3
 print(numero) # 4 (7 - 3)
 ```
 
+Además de utilizarlo con la suma(**+**) y la resta(**-**), lo puedo utilizar con los demas operadores como multiplicación(*), division(/), potencia(**).
+
+```Python
+numero *=2
+print(numero) # 8( 4 x 2)
+numero /= 4
+print(numero) # 2 (8 / 4)
+```
 ---
 
 ## :star: Práctica

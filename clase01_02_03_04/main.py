@@ -68,6 +68,11 @@ numero +=2
 print(numero) # 7 ( 5 + 2)
 numero -= 3
 print(numero) # 4 (7 - 3)
+# Además de utilizarlo con la suma(**+**) y la resta(**-**), lo puedo utilizar con los demas operadores como multiplicación(*), division(/), potencia(**).
+numero *=2
+print(numero) # 8( 4 x 2)
+numero /= 4
+print(numero) # 2 (8 / 4)
 # Practica: calcular el area y el perimetro de un rectangulo, El usuario debera ingresar los valores del alto (int) y ancho(int)
 alto = int(input("Ingresar el alto del rectángulo: "))
 ancho = int(input("Ingresar el ancho del rectángulo: "))
