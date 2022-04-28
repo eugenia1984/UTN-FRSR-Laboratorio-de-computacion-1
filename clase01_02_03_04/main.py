@@ -61,10 +61,10 @@ print(f"El resultado de la multiplicacion de {operandoOcho} x {operandoCinco}es:
 print(f"El resultado de la division de {operandoOcho} / {operandoCinco} es: {division}") 
 print(f"El residuo de {operandoOcho} / {operandoCinco}  es: {modulo}") 
 print(f"El resultado de la pontencia de {operandoOcho} al {operandoCinco}  es: {potencia}") 
+
 # Practica: calcular el area y el perimetro de un rectangulo, El usuario debera ingresar los valores del alto (int) y ancho(int)
 alto = int(input("Ingresar el alto del rectángulo: "))
 ancho = int(input("Ingresar el ancho del rectángulo: "))
 area = alto * ancho
 perimetro = (alto + ancho) * 2
-
 print(f"Teniendo el rectangulo con {alto} de alto y {ancho} de ancho\nEl área es: {area}\nY el perímetro es: {perimetro}")
