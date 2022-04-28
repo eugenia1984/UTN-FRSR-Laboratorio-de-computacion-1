@@ -405,6 +405,8 @@ Temas:
 
 - Operadores de reasignacion
 
+- Operadores de comparacion
+
 ---
 
 ## :star: Operadores aritmeticos
@@ -469,6 +471,35 @@ numero /= 4
 print(numero) # 2 (8 / 4)
 ```
 ---
+
+## :star: Algunos operadores aritmeticos nos permiten realizar operaciones con String
+
+- + concatena
+
+- * para repetir
+
+```Python
+saludo1= "Ho"
+saludo2 = "la"
+saludoCompleto = saludo1 + saludo2
+print(saudoCompleto) # Hola
+```
+
+## :star: Operadores de comparacion
+
+Dan un resultado boolean (**true** o **false**).
+
+``` == ``` igual que ...
+
+``` > ``` mayor que ...
+
+``` >=``` mayor o igual que ...
+
+``` < ``` menor que...
+
+``` < ``` menor o igual que ...
+
+``` !=``` distinto que ...
 
 ## :star: Práctica
 
