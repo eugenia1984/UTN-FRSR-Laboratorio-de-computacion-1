@@ -413,11 +413,11 @@ Temas:
 
 | signo | operador
 
-| + | suma |
-| - | resta |
-| * | multipplicacion |
-| / | division |
-| ** | exponente |
+| ```+``` | suma |
+| ```-``` | resta |
+| ```*``` | multipplicacion |
+| ```/``` | division |
+| ```**``` | exponente |
 
 
 Ejemplos en código:
@@ -483,6 +483,9 @@ saludo1= "Ho"
 saludo2 = "la"
 saludoCompleto = saludo1 + saludo2
 print(saudoCompleto) # Hola
+
+fraseRepetida = 'Hola'*4
+print(fraseRepetida) # Hola Hola Hola Hola
 ```
 
 ## :star: Operadores de comparacion
@@ -500,6 +503,18 @@ Dan un resultado boolean (**true** o **false**).
 ``` < ``` menor o igual que ...
 
 ``` !=``` distinto que ...
+
+
+Ejemplo en codigo:
+
+```Python
+print('a' == 'a') # true
+print(1 == 2) # false
+print( 'a' != 'abc') # true
+print(5 > 4) # true
+print(5 >= 5) # true
+print( 4 < 10) # false
+```
 
 ---
 
@@ -536,3 +551,24 @@ if numeroAIngresar % 2 == 0:
 else:
   print(f"El {numeroAIngresar} es IMPAR")
 ```
+
+---
+
+## :star: Práctica 3 : Es mayor de edad?
+
+- Que se pida la edad por teclado
+
+- Con **if else** ...
+
+... que sea true si es mayor de edad (tiene 18 o mas) y que diga "Eres mayor de edad"
+
+... que sea false si es menor de edad (tiene menos de 18) que diga "Eres menor de edad"
+
+```Python
+eresMayorDeEdad = int(print("Ingresa tu edad (en nombre): "))
+if eresMayorDeEdad >= 18:
+  print("Eras mayor de edad")
+else:
+  print("Eres menor de edad: ")
+```
+
