@@ -1,4 +1,4 @@
-# Clase 1: Fundamentos Python 
+# :book: Clase 1: Fundamentos Python 
 
 ## Temas:
 
@@ -119,7 +119,7 @@ En el archivo [clase01.py](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-d
 ---
 
 
-# Clase 2: Variables en Python
+# :book: Clase 2: Variables en Python
 
 ## Temas:
 
@@ -227,7 +227,7 @@ z   ->   x849   Guarda 12
 ---
 
 
-# Clase 3:   20 de Abril - Tipos de datos en Python
+# :book:  Clase 3:   20 de Abril - Tipos de datos en Python
 
 ## Temas:
 
@@ -525,8 +525,10 @@ Calcular el area y el perimetro de un rectangulo, El usuario debera ingresar los
 ```Python
 alto = int(input("Ingresar el alto del rectángulo: "))
 ancho = int(input("Ingresar el ancho del rectángulo: "))
+
 area = alto * ancho
 perimetro = (alto + ancho) * 2
+
 print(f"Teniendo el rectangulo con {alto} de alto y {ancho} de ancho\nEl área es: {area}\nY el perímetro es: {perimetro}")
 ```
 
@@ -546,6 +548,7 @@ print(f"Teniendo el rectangulo con {alto} de alto y {ancho} de ancho\nEl área e
 
 ```Python
 numeroAIngresar = int(input("Ingrese un numero para decirle si es par o impar: "))
+
 if numeroAIngresar % 2 == 0:
   print(f"El {numeroAIngresar} es PAR")
 else:
@@ -566,6 +569,7 @@ else:
 
 ```Python
 eresMayorDeEdad = int(print("Ingresa tu edad (en nombre): "))
+
 if eresMayorDeEdad >= 18:
   print("Eras mayor de edad")
 else:
@@ -591,6 +595,7 @@ Si al menos una de las condiciones es False -> **False**
 
 ```Python
 numeroIngresado = int(input("Ingresa un numero: "))
+
 if numeroIngresado>=0 and numeroIngresado<=5:
   print("El numero ingresado esta en el rango 0-5")
 else:
@@ -631,6 +636,7 @@ Rango entre las edades 20 y 30 años
 edadIngresada = int(input("Ingrese su edad : "))
 veinte = edadIngresada>=20 and edadIngresada<30
 treinta = edadIngresada>=30 and edadIngresada<40
+
 if veinte or treinta:
   print("Esta dentro del rango de los 20's a 30's años")
 else:
@@ -642,6 +648,7 @@ Otro modo más simplificado:
 
 ```Python
 edadIngresada = int(input("Ingrese su edad : "))
+
 if (20 <= edadIngresada < 30) or (30 <= edadIngresada < 40):
   print("Esta dentro del rango de los 20's a 30's años")
 else:
@@ -657,12 +664,44 @@ Se debe imprimir el mayor de los dos numeros y que se muestre: El mayor es:
 ```Python
 numero1 = int(input("Ingrese un numero: "))
 numero2 = int(input("Ingrese otro numero: "))
+
 if numero1 > numero2:
   print(f"El número mayor es: {numero1}")
 elif numero2 > numero1:
   print(f"El número mayor es {numero2}")
 else:
   print("Los dos numeros ingresados {numero1} y {numero2} son iguales")
+```
+
+
+## :star: Ejercicio 4 : tienda de libros
+
+1- Mostrar "Ingrese los siguientes datos del libro "
+
+2- "Ingrese el nombre del libro"
+
+3- "Ingrese el ID del libro"
+
+4- "Ingrese el precio del libro"
+
+5- Indicar si el envío es gratuito (True/False)
+
+6- Mostrar:
+
+Nombre:
+
+ID:
+
+Precio:
+
+Envío gratuito ?
+
+```Python
+nombreLibro = input("Ingrese el nombre del libro: ")
+idLibro = input("Ingrese el ID del libro: ")
+precioLibro = input("Ingrese el precio del libro: ")
+envioGratuito = input("Ingrese: \n-True si el envio es gratuito \n-False si el envio no es gratuito\n: ")
+print(f"Nombre: {nombreLibro}\nID: {idLibro}\nPrecio: {precioLibro}\nEnvio gratuito? {envioGratuito}")
 ```
 
 ---
