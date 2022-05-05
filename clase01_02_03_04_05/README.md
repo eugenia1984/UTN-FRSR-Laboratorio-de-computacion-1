@@ -632,7 +632,18 @@ edadIngresada = int(input("Ingrese su edad : "))
 veinte = edadIngresada>=20 and edadIngresada<30
 treinta = edadIngresada>=30 and edadIngresada<40
 if veinte or treinta:
-  print("Esta dentro del rango de los 20`s a 30's años")
+  print("Esta dentro del rango de los 20's a 30's años")
+else:
+  print("No esta dentro del rango")
+```
+
+
+Otro modo más simplificado:
+
+```Python
+edadIngresada = int(input("Ingrese su edad : "))
+if (20 <= edadIngresada < 30) or (30 <= edadIngresada < 40):
+  print("Esta dentro del rango de los 20's a 30's años")
 else:
   print("No esta dentro del rango")
 ```
