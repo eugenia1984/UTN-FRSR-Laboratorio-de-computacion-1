@@ -579,9 +579,9 @@ else:
 
 ## Operador logico AND
 
-Si ambas condiciones son true -> **true**
+Si ambas condiciones son True -> **true**
 
-Si al menos una de las condiciones es false -> **false**
+Si al menos una de las condiciones es False -> **False**
 
 ## :star: Valor dentro de un rango
 
@@ -596,3 +596,23 @@ if numeroIngresado>=0 and numeroIngresado<=5:
 else:
   print("El numero ingresado no esta en el rango de 0-5")
 ```
+
+## Operador logico OR
+
+Con que al menos uno sea **True** -> **True**
+```Python
+vacaciones = False
+diaDescanso = False
+
+if vacaciones or diaDescanso:
+  print("Puede asistir al juego")
+else:
+  print("Tiene trabajo que hacer")
+# Tiene trabajo que hacer
+```
+## Operador logico NOT
+
+Va a negarlo, si es **True** pasa a ser **False** y si es **False** pasa a ser **True**
+
+---
+---

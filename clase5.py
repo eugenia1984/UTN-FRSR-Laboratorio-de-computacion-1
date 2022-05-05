@@ -6,3 +6,12 @@ if numeroIngresado>=0 and numeroIngresado<=5:
   print("El numero ingresado esta en el rango 0-5")
 else:
   print("El numero ingresado no esta en el rango de 0-5")
+
+# Operador logico OR
+vacaciones = False
+diaDescanso = False
+
+if vacaciones or diaDescanso:
+  print("Puede asistir al juego")
+else:
+  print("Tiene trabajo que hacer")
