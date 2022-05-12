@@ -170,9 +170,21 @@ Hacer un programa para ingresar el radio de un circulo y se reporte su área y l
 
 Longitud = 2 * Pi * r
 
-En este ejercicio vamos a necesitar importar el modulo math porque tiene el valor de Pi
+En este ejercicio vamos a necesitar importar el modulo math porque tiene el valor de Pi. Se escribe:   **import math**
 
-Se escribe:   import math
+-> Utilizo la funcion **round()** para redondear el resultado a **2** numeros decimales; la funcion round() toma dos argumentos, el primero es el numero a redondear y el segundo es a cuantos decimales redondear.
+
+-> Como ya tengo importado el modulo **math** aprovecho y también utilizo la función para calcular un número al cuadrado con **math.sqrt()**
+
+
+```Python
+import math
+
+radioCirculo = float(input("Ingrese el radio del circulo: "))
+areaCirculo = math.pi * math.sqrt(radioCirculo)
+longitudCircunferenciaCirculo = 2 * math.pi * radioCirculo
+print(f'Con un radio de {radioCirculo},\nSe obtiene un área de: {round(areaCirculo, 2)}\nY la longitud de la circunferencia es: {round(longitudCircunferenciaCirculo, 2)}')
+```
 
 Podes ver el codigo en **circulo.py**
 
