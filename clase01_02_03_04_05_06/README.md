@@ -706,3 +706,44 @@ print(f"Nombre: {nombreLibro}\nID: {idLibro}\nPrecio: {precioLibro}\nEnvio gratu
 
 ---
 ---
+
+# :book: Clase 6 : 11 Mayo - Condicionales
+
+## IF -  ELSE
+
+```Python
+condicion = false
+
+if condicion:
+  print("Condicion verdadera")
+else:
+  print("Condicion falsa")
+```  
+
+## IF - ELIF - ELSE
+
+```Python
+condicion = 1
+
+if condicion == True:
+  print("Condicion verdadera")
+elif condicion == False:
+  print("Condicion falsa")
+else:
+  print("Condicion sin especificar")
+```
+
+Si condicion = True -> imprimie Condicion verdadera
+
+Si condicion = False -> se imprime Condicion falsa
+
+Si condicion = 0 -> se imprime Condicion falsa --> **0 es igual a False**
+
+Si condicion = 1 -> se imprimi Condicion verdadera --> **1 es igual a  True**
+
+Si condicion = '' -> se imprime Condicion sn especificar
+
+Si condicion = 20 -> se imprime Condicion sn especificar
+
+---
+---
