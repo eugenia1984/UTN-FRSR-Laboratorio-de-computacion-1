@@ -709,6 +709,8 @@ print(f"Nombre: {nombreLibro}\nID: {idLibro}\nPrecio: {precioLibro}\nEnvio gratu
 
 # :book: Clase 6 : 11 Mayo - Condicionales
 
+Toda la practica esta en **clase6.py**
+
 ## IF -  ELSE
 
 ```Python
@@ -763,6 +765,29 @@ else:
   numTexto = 'Has ingresado un número fuera de rango'
 
 print(f'El número ingresado es: {num} - {numTexto}')
+```
+
+---
+
+## Tercer ejercicio
+
+Escribir la siguiente expresion en forma de expresion algoritmica
+
+```
+A3 x (b2 - 2ac)
+-
+2b
+```
+
+Pedimos al usuario que ingrese los valores de a, b, c y mostramos el resultado
+
+
+```Python
+a = float(input("Ingrese el valor de a: "))
+b = float(input("Ingrese el valor de b: "))
+c = float(input("Ingrese el valor de c: "))
+resultado = ( a **3 * (b ** 2 - 2 * a * c) / (2*b))
+print(f'El resultado es {resultado}')
 ```
 
 ---
