@@ -36,3 +36,8 @@ c = float(input("Ingrese el valor de c: "))
 resultado = ( a **3 * (b ** 2 - 2 * a * c) / (2*b))
 print(f'El resultado es {resultado}')
 
+# Operador ternario
+condicion = True
+print('Condicion Verdadera') if condicion else print('condicion Falsa')
+
+

@@ -711,7 +711,7 @@ print(f"Nombre: {nombreLibro}\nID: {idLibro}\nPrecio: {precioLibro}\nEnvio gratu
 
 Toda la practica esta en **clase6.py**
 
-## IF -  ELSE
+## :star: IF -  ELSE
 
 ```Python
 condicion = false
@@ -722,7 +722,7 @@ else:
   print("Condicion falsa")
 ```  
 
-## IF - ELIF - ELSE
+## :star: IF - ELIF - ELSE
 
 ```Python
 condicion = 1
@@ -788,6 +788,15 @@ b = float(input("Ingrese el valor de b: "))
 c = float(input("Ingrese el valor de c: "))
 resultado = ( a **3 * (b ** 2 - 2 * a * c) / (2*b))
 print(f'El resultado es {resultado}')
+```
+
+---
+
+## :star: Operador ternario
+
+```Python
+condicion = True
+print('Condicion Verdadera') if condicion else print('condicion Falsa')
 ```
 
 ---
