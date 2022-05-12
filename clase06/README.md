@@ -129,17 +129,36 @@ Determinar la solución lógica de la siguiente operación.
 
 ((3 + 5 x 8 ) < 3 and ((- 6/3 x 4 ) + 2 < 2)) or ( a > b)
 
+```Python
+a = int(input("Ingresa un numero entero: "))
+b = int(input("Ingresa otro numero entero: "))
+print(f'La expresion: ((3 + 5 x 8 ) < 3 and ((- 6/3 x 4 ) + 2 < 2)) or ( a > b) da como resultado: {((3 + 5 * 8 ) < 3 and ((- 6/3 * 4 ) + 2 < 2)) or ( a > b)}')
+```
+
+Podes ver el codigo en **expresion_logica.py**
 
 ---
 
 ## Quinto ejercicio
 
 Intercambiar el valor de dos variables.
+
 Por ejemplo: 
 
 a = 10   ->  a = 5
 
 b = 5   ->   b = 10
+
+```Python
+numeroIngresado1 = int(input("Ingresa un valor: "))
+numeroIngresado2 = int(input("Ingresa un segundo valor: "))
+valorAuxiliar = numeroIngresado1
+numeroIngresado1 = numeroIngresado2
+numeroIngresado2 = valorAuxiliar
+print(f"Intercambiando los valores de los numeros ingresados\nEl primero es {numeroIngresado1}\nY el segundo es {numeroIngresado2}")
+```
+
+Podes ver el codigo en **intercambiar_valor.py**
 
 ---
 
@@ -155,7 +174,7 @@ En este ejercicio vamos a necesitar importar el modulo math porque tiene el valo
 
 Se escribe:   import math
 
-
+Podes ver el codigo en **circulo.py**
 
 ---
 ---
