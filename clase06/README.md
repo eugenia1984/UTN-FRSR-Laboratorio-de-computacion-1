@@ -162,7 +162,7 @@ Podes ver el codigo en **intercambiar_valor.py**
 
 ---
 
-## : Sexto ejercicio: Área y longitud de un circulo
+##  Sexto ejercicio: Área y longitud de un circulo
 
 Hacer un programa para ingresar el radio de un circulo y se reporte su área y la longitud de la circunferencia.
 
