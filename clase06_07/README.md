@@ -190,3 +190,57 @@ Podes ver el codigo en **circulo.py**
 
 ---
 ---
+
+# :book: Clase 7 : 06 Junio - Condicionales
+
+## :star: Ejercicios para practicar
+
+### Ejercicio 1: Calcular estacion del año
+
+Pedir al usuario que ingrese un mes del año, el valor debe ser entre 1 y 12, luego le decimos en que estacion del año esta:
+
+| Verano (21/12 al 21/13) | Otoño (21/03 al 21/06) | Invierno (21/06 al 21/09) | Primavera (21/09 al 21/12) |
+| ----------------------- | ---------------------- | ------------------------- | -------------------------- |
+| 1, 2, 3 | 4, 5, 6 | 7, 8, 9 | 10, 11, 12 |
+
+**Aclaracion**: *en el ejercicio utilizo NONE, esto indica que la variable aun no tiene asignado un valor (está vacía)*.
+
+Este **none** es equivalente a **null** en otros lenguajes de programación.
+
+---
+
+### Ejercicio 2 : Etapas de la vida
+
+Haremos un programa que cuando el usuario ingrese su edad le diga o imprima la etapa de su vida en una breve oracion:
+
+0 al 10 = a infancia es increible y bella
+
+10 al 19 = tienes muchos cambios, mucho que estudiar
+
+20 al 29 = amor y comienza el trabajo
+
+Para las sigueintes etapas, deberás completarlo...
+
+---
+
+### Ejercicio 3 : Sistema de calificaciones
+
+El objetivo del programa será crear un sistema de calificaciones de la sigueinte manera:
+
+Le pedimos al usuario que ingrese un valor del 0 al 10.
+
+Luego si ingreso 9 a 10 imprimimos A.
+
+Entre 8 y menor a 9 imprimimos B
+
+Entre 7 y menor a 8 imprimimos C
+
+Entre 6 y menor a 7 imprimimos D
+
+Entre 0 y menor a 6 imprimimos F
+
+De lo contrario el valor ingresado es incorrecto.
+
+
+---
+---
