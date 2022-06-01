@@ -219,7 +219,7 @@ Haremos un programa que cuando el usuario ingrese su edad le diga o imprima la e
 
 20 al 29 = amor y comienza el trabajo
 
-Para las sigueintes etapas, deberás completarlo...
+Para las siguientes etapas, deberás completarlo...
 
 ---
 
