@@ -296,11 +296,14 @@ Haremos un programa que cuando el usuario ingrese su edad le diga o imprima la e
 
 Para las siguientes etapas, deberás completarlo...
 
+
+-> en el archivo etapas.py
+
 ---
 
 ### Ejercicio 3 : Sistema de calificaciones
 
-El objetivo del programa será crear un sistema de calificaciones de la sigueinte manera:
+El objetivo del programa será crear un sistema de calificaciones de la siguiente manera:
 
 Le pedimos al usuario que ingrese un valor del 0 al 10.
 
@@ -316,6 +319,6 @@ Entre 0 y menor a 6 imprimimos F
 
 De lo contrario el valor ingresado es incorrecto.
 
-
+-> Esta en el archivo calificaicones.py
 ---
 ---
