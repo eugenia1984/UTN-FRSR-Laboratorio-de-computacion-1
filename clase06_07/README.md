@@ -207,6 +207,81 @@ Pedir al usuario que ingrese un mes del año, el valor debe ser entre 1 y 12, lu
 
 Este **none** es equivalente a **null** en otros lenguajes de programación.
 
+
+-> Esta realizado en el archivo estacion.py
+
+---
+## :star: None
+
+Los cuatro tipos de dato básicos son el número entero (int), el número de coma flotante (float), la cadena de caracteres (str) y el booleano (bool). 
+
+Sin embargo, Python incorpora un quinto tipo de dato que estrictamente hablando se llama **NoneType** y cuyo único valor posible es **None** (pronunciado llanamente «nan»).
+
+```Python
+ a = None
+ type(a)
+<class 'NoneType'>
+```
+
+A menudo None es utilizado **cuando se quiere crear una variable** (puesto que Python no distingue la creación de la asignación: crear una variable es simplemente darle un valor) **pero aún no se le quiere asignar ningún valor en particular**; aunque, en definitiva, como dijimos, None es también un valor. 
+
+No debe ser interpretado como el valor NULL de lenguajes como C y C++, que solo se aplica a punteros; antes bien, None puede ser asignado a cualquier objeto.
+
+
+```Python
+# Una variable puede empezar siendo `None` y luego ser asignada con otro valor.
+a = None
+type(a)
+<class 'NoneType'>
+a = "Hola mundo"
+type(a)
+<class 'str'>
+# O viceversa, empezar con un valor y luego ser asignada con `None`.
+b = 5
+b = None
+```
+
+-> Nótese que cuando escribimos el nombre de una variable en la consola interactiva cuyo contenido es None, no se mostrará nada.
+```Python
+>>> a = None
+>>> a
+```
+
+Dado que se trata de un tipo de dato como cualquier otro, con la peculiaridad de que tiene un único valor posible, podemos realizar las comparaciones habituales.
+
+```Python
+a = None
+if a == None:
+    print("a es None.")
+else:
+    print("a no es None.")
+```
+
+Si bien esto es válido, la forma recomendada de hacer comparaciones con este tipo de dato es utilizando la palabra reservada **is**.
+
+```Python
+a = None
+# Método recomendado de comparación.
+if a is None:
+    print("a es None.")
+else:
+    print("a no es None.")
+```
+
+O bien para chequear si una variable no es None:
+
+```Python
+a = 1
+b = 2
+# Válido.
+if not a is None:
+    print("a no es None.")
+# Válido y más legible.
+if b is not None:
+    print("b no es None.")
+```
+
+Las dos comparaciones son similares, pero la segunda es la más recomendada.
 ---
 
 ### Ejercicio 2 : Etapas de la vida
