@@ -15,12 +15,13 @@ Este **none** es equivalente a **null** en otros lenguajes de programación.
 mesParaEstacion = None
 mesParaEstacion = int(input("Ingrese el mes del año en numero \n(1 para Enero, 2 para Febrero, ..., 12 para Diciembre): "))
 if mesParaEstacion==1 or mesParaEstacion==2 or mesParaEstacion==3:
-  print("Verano")
+  estacion="Verano"
 elif mesParaEstacion==4 or mesParaEstacion==5 or mesParaEstacion==6:
-  print("Otoño")
+  estacion="Otoño"
 elif mesParaEstacion==7 or mesParaEstacion==8 or mesParaEstacion==9:
-  print("Invierno")
+  estacion="Invierno"
 elif mesParaEstacion==10 or mesParaEstacion==11 or mesParaEstacion==12:
-  print("Primavera")
+  estacion="Primavera"
 else:
-  print("Opcion invalida")   
+  estacion="Opcion invalida" 
+print(f'Para el mes {mesParaEstacion} la estacion es {estacion}')  
