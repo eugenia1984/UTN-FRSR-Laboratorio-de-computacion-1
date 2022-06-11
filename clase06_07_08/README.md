@@ -381,7 +381,7 @@ else:
 ---
 ---
 
-# :book: Ciclo While y For
+# :book: Clase 8 - Ciclo While y For
 
 ### :star: CICLO WHILE
 
