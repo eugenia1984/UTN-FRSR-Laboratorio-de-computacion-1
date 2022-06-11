@@ -377,6 +377,143 @@ elif calificacion>=0 and calificacion<6:
 else:
   print("El valor ingresado en incorrecto")
 ```
- 
+
+---
+---
+
+# :book: Ciclo While y For
+
+### :star: CICLO WHILE
+
+- 1ro se revisa una condicion
+
+- Si la condicion es **true** entra al ciclo y ejecuta el codigo. Si la condición es **false** nunca entra al ciclo.
+
+- La condicion en algún momento debe modificarse y pasar a ser false, sino va a ser un **ciclo infinito**. Vamos a tener un **contador** que se va a ir modificando para pasar de True a false y cortar el ciclo.
+
+### Un ejemplo en codigo:
+
+
+```Python
+condicion = 0
+
+while condicion < 8:
+  print('Ejecutamos el ciclo while')
+  condicion += 1
+print('Fin del ciclo while')
+```
+
+---
+
+## Ejercicio 1:
+
+Imprimir numeros del 0 al 5.
+
+```Python
+maximo = 5
+contador = 0
+while contador <= maximo:
+  print(contador)
+  contador +=1
+```
+
+->> Lo vas a ver en **while01.py**
+
+
+---
+
+## Ejercicio 2:
+
+Imprimir numeros del 5 al 1, de forma descendiente, con el ciclo while.
+
+```Python
+minimo = 1
+contador = 5
+
+while contador >= minimo:
+  print(contador)
+  contador -=1
+```
+
+->> Lo vas a ver en **while02.py**
+
+---
+
+## :star: Ciclo For, palabra break y continue
+
+El ciclo **for** os permite iterar, en este caso sabemos cuantas iteraciones vamos a tener.
+
+### Ejemplo en codigo
+
+Iteramos una cadena
+
+```Python
+cadena = 'Hello'
+for letra in cadena:
+  print(letra)
+else:
+  print('Fin del ciclo')
+```
+
+->> Lo podes ver en **for01.py**
+
+
+---
+
+### Break
+
+Voy a recorrer letra por letra la palabra Alemania y si encuentra la letra a se va a imprimir 'Letra encontrada: a', como la busco en minuscula la A no se cuenta.
+
+```Python
+for letra in 'Alemania':
+  if letra == 'a':
+    print(f'Letra encontrada: {letra}')
+else:
+  print('Fin del ciclo for')
+```
+
+- usando **break**
+
+```Python
+for letra in 'Alemania':
+  if letra == 'a':
+    print(f'Letra encontrada: {letra}')
+    break
+else:
+  print('Fin del ciclo for')
+```
+
+Solo voy a ver ```Letra encontrada: a```, ya que ante la primer letra a encontrada pasa al break, rompe la estructura, sale del ciclo, por eso no se ve el mensaje: *Fin del ciclo for*
+
+->> Lo podes ver en **for02.py**
+
+### Continue
+
+Quiero imprimir los numeros pares entre el 0 y el 6.
+
+```Python
+for i in range(6):
+  if i % 2 == 0:
+    print(f'Valor: {i}')
+```
+
+Se ve:
+
+```
+Valor: 0
+Valor: 2
+Valor: 4
+```
+->> Lo podes ver en **for03.py**
+
+Y utilizando el **continue**:
+
+```Python
+for i in range(6):
+  if i % 2 != 0:
+    continue
+  print(f'Valor: {i}')
+```
+
 ---
 ---
