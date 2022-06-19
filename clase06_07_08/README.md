@@ -359,7 +359,7 @@ Entre 0 y menor a 6 imprimimos F
 
 De lo contrario el valor ingresado es incorrecto.
 
--> Esta en el archivo **calificaicones.py**
+-> Esta en el archivo **calificaciones.py**
 
 ```Python
 calificacion = float(input("Ingrese el valor de la calificacion (entre 0 y 10): "))

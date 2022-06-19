@@ -7,5 +7,7 @@
 - [Clase 6 , 7 y 8: Condicionales IF, IF - ELSE, IF - ELIF - ELSE, OPERADOR TERNARIO, CICLO WHILE Y FOR](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/tree/main/clase06_07_08)
 
 
+- [Clase 9: Practica](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/tree/main/clase09)
+
 
 ---
