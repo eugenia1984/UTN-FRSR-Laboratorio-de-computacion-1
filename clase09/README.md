@@ -54,3 +54,31 @@ print(f'La suma total es {suma_total}')
 ->> se puede ver el codigo en **suma_de_n_numeros.py**
 
 ---
+
+**Ejercicio 3**: Leer 10 numeros e imprimir cuantos son positivos, cuantos negativos y cuentos neutros.
+
+```Python
+# Leer 10 numeros e imprimir cuantos son positivos, cuantos negativos y cuentos neutros.
+conteo_neutros = 0
+conteo_positivos = 0
+conteo_negativos = 0
+
+for i in range(0,10,1):
+  numero_ingresado = int(input('Ingrese un numero: '))
+  if numero_ingresado > 0:
+    conteo_positivos += 1
+  elif numero_ingresado < 0:
+    conteo_negativos += 1
+  else:
+    conteo_neutros += 1
+
+print(f'Ingreso: \n- {conteo_positivos} numeros positivos \n- {conteo_negativos} numeros negativos\n- {conteo_neutros} numeros')
+```
+
+->> se puede ver el codigo en **positivos_negativos_neutros.py**
+
+---
+
+**Ejercicio 4**: Suponga que se tiene un conjunto de calificaciones de un grupo de alumnos. Realizar un algoritmo para calcular la calificacion promedio y la calificacion mas baja de todo el grupo
+
+->> se puede ver el codigo en **calificaciones.py**
