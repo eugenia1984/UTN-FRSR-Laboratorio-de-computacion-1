@@ -103,3 +103,22 @@ print(f'La calificación promedio es: {calificacion_promedio}\nY la calificacion
 
 ---
 ---
+
+## :star: Clase 10 : 22 de Junio
+
+### Ejercicio 5
+
+Calcular el factorial de un numero mayor a cero.
+
+## Ejercicio 6
+
+Ingresar N enteros, visualizar la suma de los numeros pares de la lista, cuántos números pares existen y cuál es el promedio de los números impares.
+
+## Ejercicio 7
+
+Dadas las horas trabajadas de 5 personas y la tarifa de pago, calcular el salario y la sumatoria de todos los salarios.
+
+---
+---
+
+
