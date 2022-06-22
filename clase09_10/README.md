@@ -51,7 +51,7 @@ for contador in range (1, cantidad_de_numeros_a_sumar + 1):
 print(f'La suma total es {suma_total}')
 ```
 
-->> se puede ver el codigo en [**suma_de_nnumeros.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/clase09_10/suma_de_numeros.py)
+->> se puede ver el codigo en [**suma_de_n_numeros.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/clase09_10/suma_de_n_numeros.py)
 
 ---
 
