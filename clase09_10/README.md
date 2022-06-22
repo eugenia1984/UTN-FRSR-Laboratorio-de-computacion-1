@@ -34,7 +34,7 @@ while anio != 00:
   anio = int(input(f'Ingrese un año para informarle si es bisiesto \nCuando quiera salir ingrese doble cero "00"... ')) # el año que queremos comprobar
 ```
 
-->> se puede ver el codigo en **anio_bisiesto.py**
+->> se puede ver el codigo en [**anio_bisiesto.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/clase09_10/anio_bisiesto.py)
 
 ---
 
@@ -51,7 +51,7 @@ for contador in range (1, cantidad_de_numeros_a_sumar + 1):
 print(f'La suma total es {suma_total}')
 ```
 
-->> se puede ver el codigo en **suma_de_n_numeros.py**
+->> se puede ver el codigo en [**suma_de_nnumeros.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/clase09_10/suma_de_numeros.py)
 
 ---
 
@@ -75,7 +75,7 @@ for i in range(0,10,1):
 print(f'Ingreso: \n- {conteo_positivos} numeros positivos \n- {conteo_negativos} numeros negativos\n- {conteo_neutros} numeros')
 ```
 
-->> se puede ver el codigo en **positivos_negativos_neutros.py**
+->> se puede ver el codigo en [**positivos_negativos_neutros.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/clase09_10/positivos_negativos_neutros.py)
 
 ---
 
@@ -99,4 +99,7 @@ print(f'La calificación promedio es: {calificacion_promedio}\nY la calificacion
 ```
 
 
-->> se puede ver el codigo en **calificaciones.py**
+->> se puede ver el codigo en [**calificaciones.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/clase09_10/calificaciones.py)
+
+---
+---
