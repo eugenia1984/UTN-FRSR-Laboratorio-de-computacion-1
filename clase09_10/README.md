@@ -106,6 +106,7 @@ print(f'La calificación promedio es: {calificacion_promedio}\nY la calificacion
 
 ## :star: Clase 10 : 22 de Junio
 
+
 ### Ejercicio 5
 
 Calcular el factorial de un numero mayor a cero.
@@ -129,11 +130,46 @@ else:
 ->> se puede ver el codigo en [**factorial.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/clase09_10/factorial.py)
 
 
+---
+
 ## Ejercicio 6
 
 Ingresar N enteros, visualizar la suma de los numeros pares de la lista, cuántos números pares existen y cuál es el promedio de los números impares.
 
+```Python
+totalElementosAIngresar = int(input('Indique - en numeros- el total de elementos a ingresar: '))
+i = 0
+sumaDeNumerosPares = 0
+conteoPares = 0
+sumaDeNumerosImpares = 0
+conteoImpares = 0
+promedioImpares = 0
+
+while i < totalElementosAIngresar:
+  num = int(input('Ingrese el numero: '))
+  if num % 2 == 0: # el numero va a ser par, sumo a los pares
+    sumaDeNumerosPares += num
+    conteoPares += 1
+  else: #es numero impar, sumo a los impares
+    sumaDeNumerosImpares += num
+    conteoImpares += 1
+  i = i+1
+
+if conteoPares == 0:
+  print('No se ingresaron numeros pares')
+else:
+  print(f'La suma de los numeros pares es: {sumaDeNumerosPares}\nEl conteo de numeros pares es: {conteoPares}')
+
+if conteoImpares == 0:
+  print('No se ingresaron numeros impares')
+else:
+  print(f'La suma de los numeros impares es: {sumaDeNumerosImpares}\nEl conteo de numeros impares es: {conteoImpares}')
+ ```
+ 
 ->> se puede ver el codigo en [**numeros_pares_impares.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/clase09_10/numeros_pares_impares.py)
+
+
+---
 
 ## Ejercicio 7
 
