@@ -110,6 +110,9 @@ print(f'La calificación promedio es: {calificacion_promedio}\nY la calificacion
 
 Calcular el factorial de un numero mayor a cero.
 
+->> se puede ver el codigo en [**factorial.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/clase09_10/factorial.py)
+
+
 ## Ejercicio 6
 
 Ingresar N enteros, visualizar la suma de los numeros pares de la lista, cuántos números pares existen y cuál es el promedio de los números impares.
