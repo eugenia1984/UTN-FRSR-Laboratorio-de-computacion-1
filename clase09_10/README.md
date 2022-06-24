@@ -133,6 +133,8 @@ else:
 
 Ingresar N enteros, visualizar la suma de los numeros pares de la lista, cuántos números pares existen y cuál es el promedio de los números impares.
 
+->> se puede ver el codigo en [**numeros_pares_impares.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/clase09_10/numeros_pares_impares.py)
+
 ## Ejercicio 7
 
 Dadas las horas trabajadas de 5 personas y la tarifa de pago, calcular el salario y la sumatoria de todos los salarios.
