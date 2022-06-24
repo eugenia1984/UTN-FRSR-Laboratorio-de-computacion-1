@@ -110,6 +110,22 @@ print(f'La calificación promedio es: {calificacion_promedio}\nY la calificacion
 
 Calcular el factorial de un numero mayor a cero.
 
+```Python
+num = int(input('Ingrerse un numero, para calcular su factorial: '))
+
+if num < 0:
+  print('No podemos calcular el factorial de un numero negativo :(')
+elif num == 0:
+  print(f'El factorial de {num} es 1.')
+else:
+  fact = 1
+  contador = num
+  while(contador > 1):
+    fact *= contador
+    contador -= 1
+  print(f'El factorial de {num} es {fact}.')
+ ```
+
 ->> se puede ver el codigo en [**factorial.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/clase09_10/factorial.py)
 
 
