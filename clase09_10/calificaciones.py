@@ -2,8 +2,9 @@
 cantidad_total_notas = int(input('Ingrese en numeros la cantidad de notas a ingresar: '))
 suma = 0
 nota_mas_baja = 9999
+
 for i in range(0,cantidad_total_notas,1):
-  calificacion = int(input('Ingrese la nota: '))
+  calificacion = float(input('Ingrese la nota: '))
   suma = suma + calificacion
 
   if calificacion < nota_mas_baja:

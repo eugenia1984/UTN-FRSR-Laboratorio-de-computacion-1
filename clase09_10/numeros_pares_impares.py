@@ -26,4 +26,5 @@ else:
 if conteoImpares == 0:
   print('No se ingresaron numeros impares')
 else:
-  print(f'La suma de los numeros impares es: {sumaDeNumerosImpares}\nEl conteo de numeros impares es: {conteoImpares}')
+  promedioImpares  = sumaDeNumerosImpares / conteoImpares
+  print(f'La suma de los numeros impares es: {sumaDeNumerosImpares}\nEl conteo de numeros impares es: {conteoImpares}\nY el promedio es {promedioImpares}')
