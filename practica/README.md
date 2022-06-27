@@ -319,61 +319,85 @@ True
 ---
 
 ## :star: Sección 2
-Bloques - Selección - Repeticiones  
+
+### Bloques - Selección - Repeticiones  
 
 Código de ejemplo
-
+```Python
 x=10
 if x!=0:
     print("Hola")
-    
-#El programa anterior hará que siempre se muestre “Hola” porque la condición que tiene la instrucción if nunca puede ser False, ya que la variable x vale 10 y 10 siempre será distinto de 0. Si, en lugar de asignar un valor concreto, le solicitamos al usuario que ingrese uno y lo guardamos en x, dependerá de si ese valor es distinto de 0 o no para saber si se mostrará la palabra “Hola” o no.
-17
+```
+
+-->> El programa anterior hará que siempre se muestre “Hola” porque la condición que tiene la instrucción if nunca puede ser False, ya que la variable x vale 10 y 10 siempre será distinto de 0. Si, en lugar de asignar un valor concreto, le solicitamos al usuario que ingrese uno y lo guardamos en x, dependerá de si ese valor es distinto de 0 o no para saber si se mostrará la palabra “Hola” o no.
+
+---
+
+## EJERCICIO 17
+
 Escribí un programa que, dado un número entero, muestre su valor absoluto. Recordá que, para los números positivos su valor absoluto es igual al número (el valor absoluto de 52 es 52), mientras que, para los negativos, su valor absoluto es el número multiplicado por -1 (el valor absoluto de -52 es 52).
  
 Ejemplo de ejecución:
-
+```
 Número: -12
 Valor absoluto: 12
+```
 
 Código de ejemplo
 
+```Pyhton
 x=int(input("Número:"))
 if x%2==0:
     print("El número es par")
 else:
     print("El número es impar")
-    
-#La instrucción if-else permite que se ejecute un bloque de código u otro, pero nunca ambos. En este ejemplo, si es verdad que el número ingresado por el usuario (y almacenado en la variable x) es un número par (es decir, si es verdad que el resto de la división del número por 2 es 0), se imprimirá “El número es par”. Si esa condición es falsa (el resto de la división del número por 2 no es 0), se imprimirá “El número es impar”.
-18
+```
+
+
+-->> La instrucción if-else permite que se ejecute un bloque de código u otro, pero nunca ambos. En este ejemplo, si es verdad que el número ingresado por el usuario (y almacenado en la variable x) es un número par (es decir, si es verdad que el resto de la división del número por 2 es 0), se imprimirá “El número es par”. Si esa condición es falsa (el resto de la división del número por 2 no es 0), se imprimirá “El número es impar”.
+
+---
+
+## EJERCICIO 18
+
 Escribí un programa que solicite al usuario el ingreso de dos números diferentes y muestre en pantalla al mayor de los dos.
  
 Ejemplo de ejecución:
-
+```
 Un número: 592
 Otro número distinto: 1726
 1726 es mayor
+```
 
-19
+---
+
+## EJERCICIO 19
+
 Escribí un programa que solicite al usuario una letra y, si es una vocal, muestre el mensaje “Es vocal”. Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle que no se puede procesar el dato.
  
 Ejemplo de ejecución:
-
+```
 Letra: o
 Es vocal
+```
 
-20
+---
+
+## EJERCICIO 20
+
 Escribí un programa para solicitar al usuario tres números y mostrar en pantalla al menor de los tres.
  
 Ejemplo de ejecución:
-
+```
 Primer número: 20
 Segundo número: 30
 Tercer número: 10
 Menor: 10
+```
 
 Código de ejemplo
 
+```Python
 n=int(input("Número:"))
 
 if n>10 and n<20:
@@ -385,34 +409,49 @@ if n<10 or n>20:
     print("Número incorrecto")
 else:
     print("Número correcto")
-    
-#En las dos instrucciones if-else anteriores se toma como correcto a cualquier número entre 10 y 20, pero es necesario observar cómo los operadores < y > cambian y cómo el operador and cambia por or para lograr el mismo objetivo.
-21
+```
+
+-->> En las dos instrucciones if-else anteriores se toma como correcto a cualquier número entre 10 y 20, pero es necesario observar cómo los operadores < y > cambian y cómo el operador and cambia por or para lograr el mismo objetivo.
+
+---
+
+## EJERCICIO 21
+
 Escribí un programa que solicite ingresar un nombre de usuario y una contraseña. Si el nombre es “Gwenevere” y la contraseña es “excalibur”, mostrar en pantalla “Usuario y contraseña correctos. Puede ingresar a Camelot”. Si el nombre o la contraseña no coinciden, mostrar “Acceso denegado”.
  
 Ejemplo de ejecución:
-
+```
 Nombre de usuario: gwen
 Contraseña: excalibur
 Acceso denegado
+```
 
-22
+---
+
+## EJERCICIO 22
+
 Escribí un programa que permita saber si un año es bisiesto. Para que un año sea bisiesto debe ser divisible por 4 y no debe ser divisible por 100, excepto que también sea divisible por 400.
  
 Ejemplo de ejecución:
-
+```
 Año: 2020
 Bisiesto
+```
 
 Código de ejemplo
 
+```Python
 for x in range(0,10):
     print(x)
 
 for x in range(10):
     print(x)
-    
-#Las dos repeticiones anteriores imprimirán lo mismo: los números del 0 al 9. En la primera se indica que se debe comenzar en el 0 y terminar en el 9 (el rango siempre terminará en el número dado como final, menos 1). En la segunda, al obviar el número en que se debe comenzar, automáticamente se toma al 0 como inicio del rango. Si quisiéramos, podríamos indicar que el rango comience en otro número que no sea el 0.
+```
+
+-->> Las dos repeticiones anteriores imprimirán lo mismo: los números del 0 al 9. En la primera se indica que se debe comenzar en el 0 y terminar en el 9 (el rango siempre terminará en el número dado como final, menos 1). En la segunda, al obviar el número en que se debe comenzar, automáticamente se toma al 0 como inicio del rango. Si quisiéramos, podríamos indicar que el rango comience en otro número que no sea el 0.
+
+---
+
 23
 Escribí un programa que le solicite al usuario un número entero y muestre todos los números correlativos entre el 1 y el número ingresado por el usuario.
  
