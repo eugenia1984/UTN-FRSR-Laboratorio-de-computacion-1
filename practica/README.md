@@ -17,7 +17,9 @@ variable=3
 VaRiAbLe=8
 ```
 
-->Son todas variables distintas porque Python (como muchos otros lenguajes) distingue mayúsculas y minúsculas.
+-> Son todas variables distintas porque Python (como muchos otros lenguajes) distingue mayúsculas y minúsculas.
+
+
 Código de ejemplo
 
 ```Python
@@ -38,7 +40,7 @@ n1=int(input())
 n2=float(input())
 ```
 
--> Sabemos que input() lee lo que el usuario escribe en el programa, pero el tipo de eso que lee será siempre string. Si necesitamos que sea un número debemos convertir lo que input() devuelve. Para convertir a número entero usamos int(input()) y para convertir a número con decimales usamos float(input()).
+-> Sabemos que **input()** lee lo que el usuario escribe en el programa, pero el tipo de eso que lee será siempre **string**. Si necesitamos que sea un número debemos convertir lo que input() devuelve. Para convertir a número entero usamos **int(input())** y para convertir a número con decimales usamos **float(input())**.
 
 ---
 
