@@ -54,6 +54,8 @@ Tu nombre: Patricia
 Ahora estás en la matrix, Patricia
 ```
 
+-> [Ver el ejercicio resuelto en **ejercicio01.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio01.py)
+
 ---
 
 ### EJERCICIO 2
