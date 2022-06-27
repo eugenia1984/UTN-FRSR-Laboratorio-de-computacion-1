@@ -148,6 +148,10 @@ Ingresá un número: 260
 Descontando el 15% queda: 221.0
 ```
 
+[Aca puede ver el ejercicio resulto](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio07.py)
+
+---
+
 Código de ejemplo
 
 ```Python
