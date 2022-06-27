@@ -134,6 +134,7 @@ Tercer número: 5.5
 El promedio de los tres es 8.0
 ```
 
+[Aca poder ver el **ejercicio06.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio06.py)
 
 ---
 
