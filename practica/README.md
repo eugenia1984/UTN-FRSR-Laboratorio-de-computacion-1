@@ -113,21 +113,29 @@ El consumo por kilómetro es de 20.8
 Escribí un programa que solicite al usuario el ingreso de una temperatura en escala Fahrenheit (debe permitir decimales) y le muestre el equivalente en grados Celsius. La fórmula de conversión que se usa para este cálculo es: _Celsius = (5/9) * (Fahrenheit-32)_
  
 Ejemplo de ejecución:
-
+```
 Ingresá una temperatura expresada en Farenheit: 75
 23.88888888888889
+```
 
-6
+---
+
+## EJERCICIO 6
+
 Escribí un programa que solicite al usuario ingresar tres números para luego mostrarle el promedio de los tres.
  
 Ejemplo de ejecución:
-
+```
 Primer número: 8.5
 Segundo número: 10
 Tercer número: 5.5
 El promedio de los tres es 8.0
+```
 
-7
+---
+
+## EJERCICIO 7
+
 Escribí un programa que solicite al usuario un número y le reste el 15%, almacenando todo en una única variable. A continuación, mostrar el resultado final en pantalla.
  
 Ejemplo de ejecución:
