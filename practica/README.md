@@ -118,6 +118,8 @@ Ingresá una temperatura expresada en Farenheit: 75
 23.88888888888889
 ```
 
+[Aca se puede ver como lo resolvi en **ejercicio05.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio05.py)
+
 ---
 
 ## EJERCICIO 6
@@ -131,6 +133,7 @@ Segundo número: 10
 Tercer número: 5.5
 El promedio de los tres es 8.0
 ```
+
 
 ---
 
