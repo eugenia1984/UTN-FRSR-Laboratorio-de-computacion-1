@@ -10,4 +10,7 @@
 - [Clase 9 y 10: Practica](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/tree/main/clase09_10)
 
 
+- [Ejercicios de practica para las vacaciones](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/tree/main/practica)
+
+
 ---
