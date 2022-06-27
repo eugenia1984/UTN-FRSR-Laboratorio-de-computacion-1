@@ -101,6 +101,8 @@ Litros de combustible gastados: 12.5
 El consumo por kilómetro es de 20.8
 ```
 
+[Aca podes vere como resolvi el ejercicio en **ejercicio03.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio03.py)
+
 ---
 
 ### EJERCICIO 5
