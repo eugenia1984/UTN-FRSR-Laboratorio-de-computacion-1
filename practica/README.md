@@ -178,6 +178,10 @@ Segunda palabra: muros
 derribando muros
 ```
 
+[Aca podes ver como lo hice](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio08.py)
+
+---
+
 Código de ejemplo
 
 ```Python
