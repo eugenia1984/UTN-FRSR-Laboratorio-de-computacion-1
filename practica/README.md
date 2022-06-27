@@ -69,6 +69,8 @@ Segundo número: 19
 El resultado de la suma es 33.2
 ```
 
+[Aca se puede ver la resolucion del ejericicio **ejercicio02.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio02.py)
+
 ---
 
 ## EJERCICIO 3
