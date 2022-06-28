@@ -322,6 +322,8 @@ Artículos comprados: 1
 False
 ```
 
+[Aca pueden ver como hice el **ejercicio13.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio13.py)
+
 ---
 
 ## EJERCICIO 14
