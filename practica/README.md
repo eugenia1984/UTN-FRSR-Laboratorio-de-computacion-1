@@ -764,7 +764,8 @@ Promedio de los positivos: 9.75
 Código de ejemplo
 
 ```Python
-cadena=input("Frase:")
+cadena = input("Frase:")
+
 for caracter in cadena:
     print(caracter)
  ```
