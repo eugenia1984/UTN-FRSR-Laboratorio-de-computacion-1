@@ -367,6 +367,8 @@ Otra palabra: algoritmo
 False
 ```
 
+[Aca pueden ver como hice el **ejercicio15.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio15.py)
+
 ---
 
 ## EJERCICIO 16
