@@ -513,6 +513,11 @@ Contraseña: excalibur
 Acceso denegado
 ```
 
+
+[Aca pueden ver como hice el **ejercicio21.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio21.py)
+
+
+
 ---
 
 ### Info * comparando strings en python
