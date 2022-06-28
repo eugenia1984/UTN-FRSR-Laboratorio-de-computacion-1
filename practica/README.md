@@ -305,6 +305,9 @@ print(a>100  and  a!=1000)
 
 -> Primero se calcularán los valores lógicos (True o False) de las dos comparaciones: a > 100 y a != 1000 (lo cual dependerá del número guardado en la variable a). A continuación, se utilizará la tabla de verdad de la operación AND para calcular el resultado.
 
+
+[Aca pueden ver como hice el **ejercicio12.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio12.py)
+
 ---
 
 ## EJERCICIOS 13
