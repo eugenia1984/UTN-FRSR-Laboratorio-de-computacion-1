@@ -415,6 +415,10 @@ Número: -12
 Valor absoluto: 12
 ```
 
+[Aca pueden ver como hice el **ejercicio17.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio17.py)
+
+---
+
 Código de ejemplo
 
 ```Pyhton
