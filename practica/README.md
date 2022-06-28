@@ -614,7 +614,11 @@ for x in range(10):
     print(x)
 ```
 
--->> Las dos repeticiones anteriores imprimirán lo mismo: los números del 0 al 9. En la primera se indica que se debe comenzar en el 0 y terminar en el 9 (el rango siempre terminará en el número dado como final, menos 1). En la segunda, al obviar el número en que se debe comenzar, automáticamente se toma al 0 como inicio del rango. Si quisiéramos, podríamos indicar que el rango comience en otro número que no sea el 0.
+-->> Las dos repeticiones anteriores imprimirán lo mismo: los números del 0 al 9. 
+
+En la primera se indica que se debe comenzar en el 0 y terminar en el 9 (el rango siempre terminará en el número dado como final, menos 1). 
+
+En la segunda, al obviar el número en que se debe comenzar, automáticamente se toma al 0 como inicio del rango. Si quisiéramos, podríamos indicar que el rango comience en otro número que no sea el 0.
 
 ---
 
