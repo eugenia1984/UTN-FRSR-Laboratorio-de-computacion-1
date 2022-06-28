@@ -801,6 +801,10 @@ Frase: Sabía quién era esta mañana, pero he cambiado varias veces desde enton
 secnotne edsed secev sairav odaibmac eh orep ,anañam atse are néiuq aíbaS
 ```
 
+[Aca pueden ver como hice el **ejercicio31.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio31.py)
+
+
+
 Código de ejemplo
 
 ```Python
