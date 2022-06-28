@@ -697,6 +697,9 @@ Frase: Verde que te quiero verde
 Vocales: 11
 ```
 
+[Aca pueden ver como hice el **ejercicio26.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio26.py)
+
+
 ---
 
 ## EJERCICIO 27
