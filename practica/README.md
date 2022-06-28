@@ -515,6 +515,73 @@ Acceso denegado
 
 ---
 
+### Info * comparando strings en python
+
+### Operadores relacionales
+
+In Python, the relational operators are used to compare different values. Strings can be compared using these operators. When we compare strings, we compare their Unicode values.
+
+```Python
+str1 = 'Mark'
+str2 = 'Jack'
+
+print(str1>str2)
+print(str1<str2)
+print(str1==str2)
+print(str1!=str2)
+print(str1>=str2)
+print(str1<=str2)
+```
+
+salida:
+```
+True
+False
+False
+True
+True
+False
+```
+
+### IS
+
+The is operator is used to check for identity comparison in Python. This means that if two variables have the same memory location, then their identity is considered the same, and the result of their comparison is True; otherwise, it is False. The is operator is different from the == relational operator since the latter tests for equality.
+
+
+
+### Usando expresiones regulares
+
+Regular Expressions are very heavily used in Python and can be used to check if a string matches a pattern or not.
+
+In the following example, we will compare two strings with a pattern using regular expressions.
+
+```Python
+import re
+str1 = 'Mark'
+str2 = 'Jack'
+
+def check_pattern(s):
+    if re.match("Ma[a-z]+",s):
+        print("Pass")
+    else:
+        print("Fail")
+
+check_pattern(str1)
+check_pattern(str2)
+```
+
+
+Output:
+```
+True
+False
+```
+
+The re pattern in the above checks if a string starts with Ma and is followed by other letters. That is why Mark returns True, and ack returns False.
+
+
+---
+
 ## EJERCICIO 22
 
 Escribí un programa que permita saber si un año es bisiesto. Para que un año sea bisiesto debe ser divisible por 4 y no debe ser divisible por 100, excepto que también sea divisible por 400.
