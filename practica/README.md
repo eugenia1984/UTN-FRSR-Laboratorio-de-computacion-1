@@ -892,6 +892,11 @@ Número: 0
 Mayor número ingresado: 12
 ```
 
+[Aca pueden ver como hice el **ejercicio33.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio33.py)
+
+
+---
+
 Código de ejemplo
 
 -->> La repetición while ejecutará el bloque siempre que la condición sea True. En el ejemplo anterior, se repetirá el bloque mientras los strings ingresados tengan longitud 1 (un único carácter) y la repetición finalizará cuando se ingrese un string con longitud diferente a 1 (ya sea un string vacío o uno que tenga más de 1 carácter).
