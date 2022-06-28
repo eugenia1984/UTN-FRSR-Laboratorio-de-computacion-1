@@ -872,6 +872,9 @@ Monto de una venta: $ 0
 Monto total a pagar: $ 2160.0
 ```
 
+[Aca pueden ver como hice el **ejercicio32.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio32.py)
+
+
 ---
 
 ## EJERICICIO 33
