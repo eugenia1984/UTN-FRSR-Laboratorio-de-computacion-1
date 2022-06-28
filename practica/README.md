@@ -383,6 +383,8 @@ True
 ```
 
 
+[Aca pueden ver como hice el **ejercicio16.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio16.py)
+
 ---
 ---
 
