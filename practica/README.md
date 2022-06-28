@@ -239,6 +239,8 @@ print(a != b)
 
 -> La instrucción print imprimirá True, ya que el valor contenido en a es diferente del valor contenido en b.
 
+[Aca pueden ver como lo resolvi en **ejercicio09.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio09.py)
+
 ---
 
 ## EJERCICIO 10
