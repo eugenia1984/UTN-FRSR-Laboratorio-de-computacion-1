@@ -253,6 +253,10 @@ Shows vistos en el último año: 3
 False
 ```
 
+[En ejercicio10.py esta como lo resolvi](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio10.py)
+
+---
+
 Código de ejemplo
 
 ```Python
