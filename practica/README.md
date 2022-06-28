@@ -666,14 +666,23 @@ Divisores:
 14
 ```
 
-Código de ejemplo
+[Aca pueden ver como hice el **ejercicio25.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio25.py)
+
+---
+
+
+Código de ejemplo:
 
 ```Python
 for x in "hola":
     print(x)
 ```
 
--->> La repetición for utiliza el operador in para recorrer una secuencia. Este operador retorna un valor lógico: True si el primer operando está contenido en el segundo, False si no es así. Es posible utilizar el operador in de forma independiente, para saber, por ejemplo, si un string está contenido dentro de otro: "a" in "hola" dará como resultado True porque el string “a” está dentro de “hola”. Asimismo, se puede negar el valor lógico obtenido por la operación utilizando not: "a" not in "hola" dará como resultado Fase porque no es verdad que el string “a” no esté dentro de “hola”.
+-->> La repetición for utiliza el operador in para recorrer una secuencia. Este operador retorna un valor lógico: True si el primer operando está contenido en el segundo, False si no es así. 
+
+Es posible utilizar el operador in de forma independiente, para saber, por ejemplo, si un string está contenido dentro de otro: "a" in "hola" dará como resultado True porque el string “a” está dentro de “hola”. 
+
+Asimismo, se puede negar el valor lógico obtenido por la operación utilizando not: "a" not in "hola" dará como resultado Fase porque no es verdad que el string “a” no esté dentro de “hola”.
 
 
 ---
