@@ -734,6 +734,8 @@ Número: 7
 Factorial: 5040
 ```
 
+[Aca pueden ver como hice el **ejercicio28.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio28.py)
+
 ---
 
 ## EJERCICIO 29
