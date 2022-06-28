@@ -647,6 +647,9 @@ Ejemplo de ejecución:
 Sumatoria: 5050
 ```
 
+[Aca pueden ver como hice el **ejercicio24.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio24.py)
+
+
 ---
 
 ## EJERCIICO 25
