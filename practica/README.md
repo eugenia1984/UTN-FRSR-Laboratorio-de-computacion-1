@@ -740,7 +740,9 @@ Factorial: 5040
 
 ## EJERCICIO 29
 
-Escribí un programa que permita al usuario ingresar 6 números enteros, que pueden ser positivos o negativos. Al finalizar, mostrar la sumatoria de los números negativos y el promedio de los positivos. No olvides que no es posible dividir por cero, por lo que es necesario evitar que el programa arroje un error si no se ingresaron números positivos.
+Escribí un programa que permita al usuario ingresar 6 números enteros, que pueden ser positivos o negativos. Al finalizar, mostrar la sumatoria de los números negativos y el promedio de los positivos. 
+
+No olvides que no es posible dividir por cero, por lo que es necesario evitar que el programa arroje un error si no se ingresaron números positivos.
  
 Ejemplo de ejecución:
 ```
@@ -754,6 +756,9 @@ Sumatoria de los negativos: -15
 Promedio de los positivos: 9.75
 ```
 
+
+---
+
 Código de ejemplo
 
 ```Python
@@ -762,7 +767,9 @@ for caracter in cadena:
     print(caracter)
  ```
  
--->> Cuando se recorre un string mediante un for que itera por cada uno de sus caracteres, asignar un nuevo valor a la variable iteradora (en este caso, caracter) no modifica el string original. Esto es, la instrucción caracter="a" dentro del for no modificaría en nada el string almacenado en la variable cadena.
+-->> Cuando se recorre un string mediante un for que itera por cada uno de sus caracteres, asignar un nuevo valor a la variable iteradora (en este caso, caracter) no modifica el string original. 
+
+Esto es, la instrucción caracter="a" dentro del for no modificaría en nada el string almacenado en la variable cadena.
 
 ---
 
