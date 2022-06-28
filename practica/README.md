@@ -599,10 +599,9 @@ Bisiesto
 
 [Aca pueden ver como hice el **ejercicio22.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio22.py)
 
-
-
 ---
 
+## FOR IN RANGE
 
 Código de ejemplo
 
@@ -633,6 +632,9 @@ Ingresá un número: 3
 2
 3
 ```
+
+[Aca pueden ver como hice el **ejercicio23.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio23.py)
+
 
 ---
 
