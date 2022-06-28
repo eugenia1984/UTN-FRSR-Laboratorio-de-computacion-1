@@ -758,7 +758,6 @@ Promedio de los positivos: 9.75
 
 [Aca pueden ver como hice el **ejercicio29.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio29.py)
 
-
 ---
 
 Código de ejemplo
@@ -786,6 +785,9 @@ Frase: Aquí me pongo a cantar al compás de la vigüela_
 Carácter: o
 Aquí me p*ng* a cantar al c*mpás de la vigüela
 ```
+
+[Aca pueden ver como hice el **ejercicio30.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio30.py)
+
 
 ---
 
