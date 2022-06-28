@@ -597,6 +597,13 @@ Año: 2020
 Bisiesto
 ```
 
+[Aca pueden ver como hice el **ejercicio22.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio22.py)
+
+
+
+---
+
+
 Código de ejemplo
 
 ```Python
