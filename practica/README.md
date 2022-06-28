@@ -720,6 +720,8 @@ Ejemplo de ejecución:
 34
 ```
 
+[Aca pueden ver como hice el **ejercicio27.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio27.py)
+
 ---
 
 ## EJERCICIO 28
