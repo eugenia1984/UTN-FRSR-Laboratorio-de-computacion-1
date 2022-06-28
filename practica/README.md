@@ -652,7 +652,7 @@ Sumatoria: 5050
 
 ---
 
-## EJERCIICO 25
+## EJERCICIO 25
 
 Escribí un programa que, dado un número por el usuario, muestre todos sus divisores positivos. Recordá que un divisor es aquel que divide al número de forma exacta (con resto 0).
  
