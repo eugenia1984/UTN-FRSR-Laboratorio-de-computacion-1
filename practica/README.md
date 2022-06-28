@@ -460,6 +460,8 @@ Letra: o
 Es vocal
 ```
 
+[Aca pueden ver como hice el **ejercicio19.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio19.py)
+
 ---
 
 ## EJERCICIO 20
