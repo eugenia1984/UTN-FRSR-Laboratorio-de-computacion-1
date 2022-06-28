@@ -476,6 +476,12 @@ Tercer número: 10
 Menor: 10
 ```
 
+
+[Aca pueden ver como hice el **ejercicio20.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio20.py)
+
+
+---
+
 Código de ejemplo
 
 ```Python
