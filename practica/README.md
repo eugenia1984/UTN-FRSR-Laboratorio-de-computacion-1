@@ -756,6 +756,8 @@ Sumatoria de los negativos: -15
 Promedio de los positivos: 9.75
 ```
 
+[Aca pueden ver como hice el **ejercicio29.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio29.py)
+
 
 ---
 
