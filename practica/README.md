@@ -282,6 +282,8 @@ Fecha en formato DDMMAAAA: 16112017
 16 / 11 / 2017
 ```
 
+[Aca pueden ver como hice el **ejercicio11.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio11.py)
+
 ---
 
 
