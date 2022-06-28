@@ -445,6 +445,9 @@ Otro número distinto: 1726
 1726 es mayor
 ```
 
+
+[Aca pueden ver como hice el **ejercicio18.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio18.py)
+
 ---
 
 ## EJERCICIO 19
