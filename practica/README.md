@@ -1084,9 +1084,9 @@ Se leyeron 3 líneas completas
 --- 
 ---
 
-## :star: Sección 3
+# :star: Sección 3 * Funciones  
 
-### Funciones  
+---
 
 Código de ejemplo
 
@@ -1094,15 +1094,19 @@ Código de ejemplo
 def promedio(x, y, z):
     return (x+y+z)/3
 
-n1=int(input("Primer número:"))
-n2=int(input("Segundo número:"))
-n2=int(input("Tercer número:"))
+n1 = int(input("Primer número:"))
+n2 = int(input("Segundo número:"))
+n2 = int(input("Tercer número:"))
 print("El promedio de los tres es:", promedio(n1,n2,n3))
 ```
 
--->> La función suma definida en el ejemplo recibe tres parámetros y retorna el promedio.
-#Una función termina donde termina su bloque ó cuando se ejecuta una instrucción return, aunque esté en cualquier parte del bloque. Al retornar, el programa continúa desde el punto en donde se había llamado a la función.
-#Una función puede recibir 0 o más parámetros, sin límite, pero no puede retornar más de un resultado a la vez. Puede también no retornar nada (por ejemplo, una función que sólo muestra algo en pantalla).
+-->> La **función suma** definida en el ejemplo recibe **tres parámetros** y **retorna el promedio**.
+
+-->> Una función termina donde **termina su bloque** ó cuando **se ejecuta una instrucción return**, aunque esté en cualquier parte del bloque. 
+
+-->> Al retornar, el programa continúa desde el punto en donde se había llamado a la función.
+
+-->> Una función puede recibir 0 o más parámetros, sin límite, pero no puede retornar más de un resultado a la vez. Puede también no retornar nada (por ejemplo, una función que sólo muestra algo en pantalla).
 
 ---
 
