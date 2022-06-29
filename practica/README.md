@@ -930,6 +930,10 @@ Porcentaje de alumnos aprobados: 66.66666666666667 %
 Promedio de los aprobados: 8.5
 ```
 
+[Aca pueden ver como hice el **ejercicio34.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio34.py)
+
+
+---
 
 Código de ejemplo
 
