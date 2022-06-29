@@ -1190,7 +1190,10 @@ print(mayorDeTres(n1,n2,n3))
 ## EJERCICIO 43
 
 Escribí un programa que permita al usuario ingresar números enteros. La repetición terminará cuando el usuario ingrese un número para el cual la suma de sus dígitos sea mayor que 1000 ó múltiplo de 5. Finalmente, mostrar cuántos números impares ingresó el usuario antes de cortar la repetición. Reutilizar las funciones esPar y sumatoriaDigitos implementadas en los ejercicios anteriores.
- 
+
+[Aca pueden ver el **ejercicio43.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio43.py)
+
+
 Ejemplo de ejecución:
 ```
 Escribí un número: 16
