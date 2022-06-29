@@ -1221,6 +1221,11 @@ Cadena: fin
 Cantidad de palíndromos: 3
 ```
 
+[Aca pueden ver como hice el **ejercicio44.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio44.py)
+
+
+---
+
 Código de ejemplo
 
 ```Python
