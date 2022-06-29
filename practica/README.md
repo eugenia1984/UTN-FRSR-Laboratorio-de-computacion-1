@@ -984,6 +984,8 @@ Escribí un número: 7124
 Suma de los dígitos: 14
 ```
 
+[Aca pueden ver como hice el **ejercicio36.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio36.py)
+
 ---
 
 ## EJERCICIO 37
