@@ -1245,7 +1245,12 @@ while cantidadDigitos(n)%3 != 0:
 print("Mayor número ingresado:", mayor)
 ```
 
--->> Las funciones son también útiles para pensar los programas en partes más pequeñas. En el ejemplo de arriba, la repetición lee números hasta que se ingresa uno cuya cantidad de dígitos es múltiplo de 3. Cuando finaliza la repetición, de todos los números ingresados se muestra cuál fue el mayor. Pero para poder armar la condición de esta repetición es necesario calcular la cantidad de dígitos de un número, lo cual se delega en una función que es llamada en cada iteración, cuando se evalúa la condición.
+-->> Las funciones son también útiles para pensar los programas en partes más pequeñas. En el ejemplo de arriba, la repetición lee números hasta que se ingresa uno cuya cantidad de dígitos es múltiplo de 3. 
+
+Cuando finaliza la repetición, de todos los números ingresados se muestra cuál fue el mayor. 
+
+Pero para poder armar la condición de esta repetición es necesario calcular la cantidad de dígitos de un número, lo cual se delega en una función que es llamada en cada iteración, cuando se evalúa la condición.
+
 
 ---
 
