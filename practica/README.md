@@ -1007,6 +1007,8 @@ Número (-1 para terminar el programa): -1
 Se ingresaron 2 múltiplos de 3.
 ```
 
+[Aca se puede ver la resolucion del ejericicio **ejercicio37.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio37.py)
+
 ---
 
 ## EJERCICIO 38
