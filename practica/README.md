@@ -1079,7 +1079,7 @@ Cadena: *
 Se leyeron 3 líneas completas
 ```
  
-[Aca se puede ver la resolucion del ejericicio **ejercicio.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio.py)
+[Aca se puede ver la resolucion del ejericicio **ejercicio40.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio40.py)
  
 --- 
 ---
@@ -1129,6 +1129,7 @@ Número: 32
 Suma de los pares: 18318
 Suma de los impares: 13567
 ```
+[Aca se puede ver la resolucion del ejericicio **ejercicio41.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio41.py)
 
 ---
 
