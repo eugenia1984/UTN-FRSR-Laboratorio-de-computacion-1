@@ -1024,6 +1024,8 @@ Cantidad de símbolos: 6
 Cantidad de múltiplos de 4: 2
 ```
 
+[Aca se puede ver la resolucion del ejericicio **ejercicio38.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio38.py)
+
 ---
 
 ## EJERCICIO 39
