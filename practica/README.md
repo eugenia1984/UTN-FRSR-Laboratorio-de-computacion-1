@@ -1270,5 +1270,8 @@ Número entero: 954
 Tienen sólo 2 divisores: 4 números
 ```
 
+[Aca pueden ver el **ejercicio45.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio45.py)
+
+
 ---
 ---
