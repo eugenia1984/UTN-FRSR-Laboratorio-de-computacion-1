@@ -1137,6 +1137,12 @@ Suma de los impares: 13567
 
 Escribí una función llamada sumatoriaDigitos que reciba como parámetro un número y retorne la suma de todos sus dígitos, reutilizando la estrategia utilizada en el ejercicio 36. Finalmente, escribir un algoritmo que solicite al usuario ingresar varios números hasta que ingrese el número 100, con el cual cortará la repetición. Por cada número, mostrar la suma de sus dígitos, para lo cual se llamará a la función sumatoriaDigitos.
  
+
+[Aca pueden ver el **ejercicio42.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio42.py)
+
+
+---
+
 Ejemplo de ejecución:
 ```
 Escribí un número: 7124
