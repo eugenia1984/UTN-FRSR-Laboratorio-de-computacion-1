@@ -1046,6 +1046,9 @@ Números cuya cantidad de dígitos es múltiplo de 3: 829-102834-
 Números que contienen el 0: 102834-4307-1602357-
 ```
 
+
+[Aca se puede ver la resolucion del ejericicio **ejercicio39.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio39.py)
+
 ---
 
 ## EJERCICIO 40
