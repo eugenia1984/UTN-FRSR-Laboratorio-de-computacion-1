@@ -1175,9 +1175,9 @@ def mayorDeTres(x, y, z):
         else:
             return z
 
-n1=int(input("Primer número:"))
-n2=int(input("Segundo número:"))
-n3=int(input("Tercer número:"))
+n1 = int(input("Primer número:"))
+n2 = int(input("Segundo número:"))
+n3 = int(input("Tercer número:"))
 print(mayorDeTres(n1,n2,n3))
 ```
 
