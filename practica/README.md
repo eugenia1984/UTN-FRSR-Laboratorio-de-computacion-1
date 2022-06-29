@@ -1079,7 +1079,10 @@ Cadena: *
 Se leyeron 3 líneas completas
 ```
  
+[Aca se puede ver la resolucion del ejericicio **ejercicio.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio.py)
+ 
 --- 
+---
 
 ## :star: Sección 3
 
