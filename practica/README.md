@@ -969,6 +969,9 @@ El string completo es: L9a4A0Naa
 Porcentaje de letras ‘a’: 33.333333333333336
 ```
 
+[Aca pueden ver como hice el **ejercicio35.py**](https://github.com/eugenia1984/UTN-FRSR-Laboratorio-de-computacion-1/blob/main/practica/ejercicio35.py)
+
+
 ---
 
 ## EJERCICIO 36
